@@ -1,0 +1,12 @@
+.ds-logo{
+    /* font-family: 'Inter', sans-serif; */
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ds-header{
+    padding-top: 7.1875rem;
+    padding-bottom: 2.5rem;
+}

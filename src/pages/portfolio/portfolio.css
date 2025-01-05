@@ -1,0 +1,37 @@
+.ds-project-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 3rem;
+    grid-gap: 2rem;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+[data-aos][data-aos][data-aos-duration="1500"], body[data-aos-duration="1500"] [data-aos] {
+    transition-duration: 1.5s;
+}
+
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+
+.ds-project-list-loop:nth-child(even) {
+    margin-top:5rem;
+}
+
+.ds-project-list-loop {
+    padding: 0 0.75rem;
+}
+
+.ds-project-list-loop-inner {
+    background-color: #FFF;
+    box-shadow: 0px 0px 1px #cecaca;
+    transition-delay: 0s;
+    transition-duration: 0.8s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transform: translateY(0);
+}

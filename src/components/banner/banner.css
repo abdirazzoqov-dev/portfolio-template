@@ -1,0 +1,19 @@
+.ds-heading span{
+    border-bottom: 15px solid #A6F3E7;
+}
+
+.ds-heading{
+    font-size: 4.375rem;
+    line-height: 6rem;
+    margin-bottom: 3.1875rem;
+}
+
+.ds-banner-section p{
+    font-size: 1rem;
+    line-height: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+/* .ds-banner .arrow-icon{
+    height: 3em;
+} */
